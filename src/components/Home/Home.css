@@ -1,5 +1,40 @@
-#splash {
+#container {
+  padding: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#searchBar {
+  font-size: 36px;
+  margin-left: 2em;
+}
+
+p {
+  margin-left: 2em;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 36px;
+}
+#searchButton {
+  margin-left: 0.5em;
+  padding-bottom: 0.4em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #0073df;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+#searchButton:hover {
+  background-color: #5598d6;
+  cursor: pointer;
+}
+
+#splash {
+  max-width: 20%;
 }
